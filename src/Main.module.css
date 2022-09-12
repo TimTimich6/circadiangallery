@@ -2,7 +2,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100vh;
   min-width: 100vw;
   background-color: #0a0c19;
@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 800px) {
   /* .total {
-    padding-right: 3rem;
+    background-size: 100%;
   } */
   .title {
     font-size: 1.5rem;
