@@ -1,0 +1,42 @@
+.total {
+  width: 100%;
+  padding: 3rem 6rem;
+  background-color: rgb(235, 237, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title {
+  font-size: 3rem;
+  color: rgb(33, 33, 33);
+  transition: all 0.3s ease-out;
+}
+.author {
+  color: rgb(62, 62, 62);
+  transition: all 0.3s ease-out;
+
+  font-size: 2.4rem;
+}
+
+.title:hover,
+.author:hover {
+  filter: drop-shadow(3px 3px 4px rgb(155, 155, 155));
+}
+.description {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  color: rgb(13, 23, 23);
+}
+
+@media screen and (max-width: 900px) {
+  .total {
+    padding: 1rem 2rem;
+  }
+  .title {
+    font-size: 1.5rem;
+  }
+  .author {
+    font-size: 1.5rem;
+  }
+}
